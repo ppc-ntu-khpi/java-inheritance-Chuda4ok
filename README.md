@@ -3,4 +3,4 @@
 
 Фото **собаки**😉
 
-![](images/dog.jpq)
+![](https://github.com/ppc-ntu-khpi/java-inheritance-Chuda4ok/blob/master/images/dog.jpg)
