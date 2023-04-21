@@ -4,7 +4,7 @@
 
 Для прикладу я змоделював **звичайнісінького кота**😉
 
-<img src="https://github.com/ppc-ntu-khpi/java-inheritance-Chuda4ok/blob/master/images/dog.jpg" width="100%"/>
+<img src="https://github.com/ppc-ntu-khpi/java-inheritance-Chuda4ok/blob/master/images/dog.jpg" width="50%"/>
 <img src="https://github.com/ppc-ntu-khpi/Inheritance-Starter/blob/master/images/Cat-Diagram.png" width="100%"/>
 
 ## В рамках практичної роботи ви маєте зробити наступне:
