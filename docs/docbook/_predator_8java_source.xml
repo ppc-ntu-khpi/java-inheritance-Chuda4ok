@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__predator_8java_source" xml:lang="en-US">
+<title>Predator.java</title>
+<indexterm><primary>C:/Users/User/OneDrive/Документы/NetBeansProjects/java-inheritance-Chuda4ok/src/domain/Predator.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__predator_8java_source_1l00001"/>00001 <emphasis role="keyword">package&#32;</emphasis>domain&#32;;
+<anchor xml:id="__predator_8java_source_1l00002"/>00002 
+<anchor xml:id="__predator_8java_source_1l00003"/>00003 
+<anchor xml:id="__predator_8java_source_1l00007"/><link linkend="_classdomain_1_1_predator">00007</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">abstract</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classdomain_1_1_predator">Predator</link>&#32;<emphasis role="keyword">extends</emphasis>&#32;<link linkend="_classdomain_1_1_animal">Animal</link>
+<anchor xml:id="__predator_8java_source_1l00008"/>00008 {
+<anchor xml:id="__predator_8java_source_1l00009"/>00009 
+<anchor xml:id="__predator_8java_source_1l00010"/>00010 
+<anchor xml:id="__predator_8java_source_1l00016"/><link linkend="_classdomain_1_1_predator_1ad00b41c1e8b3652e62fe8f365d3a737a">00016</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_predator_1ad00b41c1e8b3652e62fe8f365d3a737a">hunt</link>()&#32;{&#32;
+<anchor xml:id="__predator_8java_source_1l00017"/>00017 
+<anchor xml:id="__predator_8java_source_1l00018"/>00018 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Predator&#32;is&#32;hunting,&#32;but&#32;our&#32;dog&#32;isn&apos;t&#32;a&#32;predator&quot;</emphasis>);
+<anchor xml:id="__predator_8java_source_1l00019"/>00019 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__predator_8java_source_1l00020"/>00020 &#32;&#32;&#32;&#32;
+<anchor xml:id="__predator_8java_source_1l00021"/>00021 }
+<anchor xml:id="__predator_8java_source_1l00022"/>00022 
+</programlisting></section>

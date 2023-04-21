@@ -1,8 +1,22 @@
-package domain;
+package domain ;
 
-public class Predator extends Animal {
 
-    public void hunt() {
-        System.out.println("Predator is hunting...");
-    }
+ /**
+ * The class Abstract predator extends animal
+ */ 
+public abstract class Predator extends Animal
+{
+
+
+/** 
+ *
+ * Hunt
+ *
+ */
+	public void hunt() { 
+
+            System.out.println("Predator is hunting, but our dog isn't a predator");
+	}
+	
 }
+

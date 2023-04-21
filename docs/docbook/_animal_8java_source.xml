@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__animal_8java_source" xml:lang="en-US">
+<title>Animal.java</title>
+<indexterm><primary>C:/Users/User/OneDrive/Документы/NetBeansProjects/java-inheritance-Chuda4ok/src/domain/Animal.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__animal_8java_source_1l00001"/><link linkend="_namespacedomain">00001</link> <emphasis role="keyword">package&#32;</emphasis>domain;
+<anchor xml:id="__animal_8java_source_1l00002"/>00002 
+<anchor xml:id="__animal_8java_source_1l00003"/>00003 
+<anchor xml:id="__animal_8java_source_1l00007"/><link linkend="_classdomain_1_1_animal">00007</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">abstract</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classdomain_1_1_animal">Animal</link>&#32;{
+<anchor xml:id="__animal_8java_source_1l00008"/>00008 
+<anchor xml:id="__animal_8java_source_1l00009"/><link linkend="_classdomain_1_1_animal_1a91f6712957c95d2dc618703d7e149441">00009</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">protected</emphasis>&#32;String&#32;<link linkend="_classdomain_1_1_animal_1a91f6712957c95d2dc618703d7e149441">Name</link>;
+<anchor xml:id="__animal_8java_source_1l00010"/><link linkend="_classdomain_1_1_animal_1a5a8c84e1b1f6a481c0a5bc5fdb10bb44">00010</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">protected</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a5a8c84e1b1f6a481c0a5bc5fdb10bb44">Age</link>;
+<anchor xml:id="__animal_8java_source_1l00011"/><link linkend="_classdomain_1_1_animal_1a8e72592a2e607f27bf7e9ed3b07cdc5c">00011</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">protected</emphasis>&#32;<emphasis role="keywordtype">float</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a8e72592a2e607f27bf7e9ed3b07cdc5c">Weight</link>;
+<anchor xml:id="__animal_8java_source_1l00012"/><link linkend="_classdomain_1_1_animal_1a1e228cb2f3f724058ee382570794d420">00012</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">boolean</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a1e228cb2f3f724058ee382570794d420">WantsToEat</link>;
+<anchor xml:id="__animal_8java_source_1l00013"/>00013 
+<anchor xml:id="__animal_8java_source_1l00014"/>00014 
+<anchor xml:id="__animal_8java_source_1l00015"/>00015 
+<anchor xml:id="__animal_8java_source_1l00022"/><link linkend="_classdomain_1_1_animal_1ab59b05e680f07f235fbfb546dc3eb46f">00022</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">abstract</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1ab59b05e680f07f235fbfb546dc3eb46f">Eat</link>();&#32;
+<anchor xml:id="__animal_8java_source_1l00023"/><link linkend="_classdomain_1_1_animal_1aadb7bccc0653cbcb25f459bb2bb6f481">00023</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">abstract</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1aadb7bccc0653cbcb25f459bb2bb6f481">HaveDrink</link>();
+<anchor xml:id="__animal_8java_source_1l00024"/><link linkend="_classdomain_1_1_animal_1ac9e61145c50748d7a3e08f4ea465bb94">00024</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">abstract</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1ac9e61145c50748d7a3e08f4ea465bb94">Sleep</link>();
+<anchor xml:id="__animal_8java_source_1l00025"/><link linkend="_classdomain_1_1_animal_1a5e50ab6bec61e69a987d2db4f02561ca">00025</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">abstract</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a5e50ab6bec61e69a987d2db4f02561ca">GetRoar</link>();
+<anchor xml:id="__animal_8java_source_1l00026"/><link linkend="_classdomain_1_1_animal_1a0737b749a1031703c72537ceb961382a">00026</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">abstract</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a0737b749a1031703c72537ceb961382a">Move</link>();
+<anchor xml:id="__animal_8java_source_1l00027"/>00027 
+<anchor xml:id="__animal_8java_source_1l00028"/><link linkend="_classdomain_1_1_animal_1a6873eb055ada288a2e306c419a34cf22">00028</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a6873eb055ada288a2e306c419a34cf22">ShowInfo</link>(){
+<anchor xml:id="__animal_8java_source_1l00029"/>00029 
+<anchor xml:id="__animal_8java_source_1l00030"/>00030 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;The&#32;name&#32;of&#32;the&#32;animal:&#32;&quot;</emphasis>&#32;+&#32;this.Name);
+<anchor xml:id="__animal_8java_source_1l00031"/>00031 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Age&#32;of&#32;the&#32;animal:&#32;&quot;</emphasis>&#32;+&#32;this.Age);
+<anchor xml:id="__animal_8java_source_1l00032"/>00032 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;The&#32;weight&#32;of&#32;the&#32;animal:&#32;&quot;</emphasis>&#32;+&#32;this.Weight);
+<anchor xml:id="__animal_8java_source_1l00033"/>00033 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Does&#32;the&#32;animal&#32;want&#32;to&#32;eat?:&#32;&quot;</emphasis>&#32;+&#32;this.WantsToEat);
+<anchor xml:id="__animal_8java_source_1l00034"/>00034 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00035"/>00035 
+<anchor xml:id="__animal_8java_source_1l00042"/><link linkend="_classdomain_1_1_animal_1a2cc9bbc64ebc2447ac9088dfac6741fe">00042</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;String&#32;<link linkend="_classdomain_1_1_animal_1a2cc9bbc64ebc2447ac9088dfac6741fe">GetName</link>(){&#32;
+<anchor xml:id="__animal_8java_source_1l00043"/>00043 
+<anchor xml:id="__animal_8java_source_1l00044"/>00044 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;this.<link linkend="_classdomain_1_1_animal_1a91f6712957c95d2dc618703d7e149441">Name</link>;
+<anchor xml:id="__animal_8java_source_1l00045"/>00045 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00046"/>00046 
+<anchor xml:id="__animal_8java_source_1l00053"/><link linkend="_classdomain_1_1_animal_1acbf1d8a2a766dbcfeeded87d43d38e20">00053</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1acbf1d8a2a766dbcfeeded87d43d38e20">GetAge</link>(){&#32;
+<anchor xml:id="__animal_8java_source_1l00054"/>00054 
+<anchor xml:id="__animal_8java_source_1l00055"/>00055 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;this.<link linkend="_classdomain_1_1_animal_1a5a8c84e1b1f6a481c0a5bc5fdb10bb44">Age</link>;
+<anchor xml:id="__animal_8java_source_1l00056"/>00056 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00057"/>00057 
+<anchor xml:id="__animal_8java_source_1l00064"/><link linkend="_classdomain_1_1_animal_1a190b100e5836e64a2259dee6242a55a3">00064</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a190b100e5836e64a2259dee6242a55a3">SetAge</link>(<emphasis role="keywordtype">int</emphasis>&#32;age){&#32;
+<anchor xml:id="__animal_8java_source_1l00065"/>00065 
+<anchor xml:id="__animal_8java_source_1l00066"/>00066 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>(age&#32;&gt;&#32;0)&#32;{
+<anchor xml:id="__animal_8java_source_1l00067"/>00067 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.Age&#32;=&#32;age;
+<anchor xml:id="__animal_8java_source_1l00068"/>00068 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00069"/>00069 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">else</emphasis>&#32;System.out.println(<emphasis role="stringliteral">&quot;Error!&#32;Age&#32;cannot&#32;be&#32;less&#32;than&#32;0&quot;</emphasis>);
+<anchor xml:id="__animal_8java_source_1l00070"/>00070 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00071"/>00071 
+<anchor xml:id="__animal_8java_source_1l00078"/><link linkend="_classdomain_1_1_animal_1a83ef0e9bb1388e774e4343a655453c19">00078</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">float</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1a83ef0e9bb1388e774e4343a655453c19">GetWeight</link>(){&#32;
+<anchor xml:id="__animal_8java_source_1l00079"/>00079 
+<anchor xml:id="__animal_8java_source_1l00080"/>00080 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;this.<link linkend="_classdomain_1_1_animal_1a8e72592a2e607f27bf7e9ed3b07cdc5c">Weight</link>;
+<anchor xml:id="__animal_8java_source_1l00081"/>00081 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00082"/>00082 
+<anchor xml:id="__animal_8java_source_1l00089"/><link linkend="_classdomain_1_1_animal_1ad72eedacd8dc995e1d826a7ee75dee6c">00089</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1ad72eedacd8dc995e1d826a7ee75dee6c">SetWeight</link>(<emphasis role="keywordtype">float</emphasis>&#32;weight){&#32;
+<anchor xml:id="__animal_8java_source_1l00090"/>00090 
+<anchor xml:id="__animal_8java_source_1l00091"/>00091 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>(weight&#32;&gt;&#32;0.1f){
+<anchor xml:id="__animal_8java_source_1l00092"/>00092 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.Weight&#32;=&#32;weight;
+<anchor xml:id="__animal_8java_source_1l00093"/>00093 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00094"/>00094 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">else</emphasis>&#32;System.out.println(<emphasis role="stringliteral">&quot;Error!&#32;The&#32;weight&#32;cannot&#32;be&#32;less&#32;than&#32;0.1&quot;</emphasis>);
+<anchor xml:id="__animal_8java_source_1l00095"/>00095 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__animal_8java_source_1l00096"/>00096 }
+</programlisting></section>
