@@ -2,10 +2,22 @@ package test;
 
 import domain.Dog;
 
+
+ /**
+ * The class Test animal
+ */ 
 public class TestAnimal {
 
-    public static void main(String[] args) {
-        Dog dog = new Dog("Kerya", 3, 44.5f, false);
+
+/** 
+ *
+ * Main
+ *
+ * @param args  the args. 
+ */
+    public static void main(String[] args) { 
+
+        Dog dog = new Dog("Сomein", 3, 22f, false);
         dog.ShowInfo();
         dog.Eat();
         dog.Play();
